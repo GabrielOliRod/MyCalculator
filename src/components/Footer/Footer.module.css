@@ -1,0 +1,45 @@
+.footer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 88px;
+    align-items: center;
+    background-image: linear-gradient(to top, rgb(80, 80, 80), rgb(255, 255, 255));
+    color: var(--branco);
+    padding: 0 20px;
+    margin-top: 5em;
+}
+.footer h1{
+    font-size: 17px;
+}
+
+.left, .right {
+    flex: 1;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin-right: 32px;
+}
+
+.footer ul li:last-child {
+    margin-right: 0;
+}
+
+.footer ul li img {
+    width: 28px;
+}

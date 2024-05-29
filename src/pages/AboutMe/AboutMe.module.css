@@ -1,0 +1,32 @@
+.about h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.about p{
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(223, 146, 74);
+}
+
+.projects{
+    margin-top: 80px;
+    font-size: 22px;
+}
+
+.projectsCont{
+    margin-top: 40px;
+    display: flex;
+    width: 50em;
+    align-items: center;
+}
+
+.projects img{
+    width: 20em;
+    margin-right: 40px;
+    border-radius: 10px;
+}

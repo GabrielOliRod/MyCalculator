@@ -1,0 +1,40 @@
+.calculadora{
+    background-color: black;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.calculadora button{
+    width: 3em;
+    height: 3em;
+    font-size: 1.5em;
+    border-radius: 2em;
+    border: none;
+    margin: 0.3em;
+}
+
+.calculadora button:hover{
+    cursor: pointer;
+}
+
+.orange{
+    background-color: #FF9500;
+    color: white;
+}
+
+.gray{
+    background-color: #505050;
+    color: white;
+}
+
+.lggray{
+    background-color: #a5a5a5;
+}
+
+.result{
+    justify-content: flex-end;
+    color: white;
+    display: flex;
+    margin-right: 0.5em;
+    font-size: 4em;
+}
